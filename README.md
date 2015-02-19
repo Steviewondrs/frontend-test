@@ -5,7 +5,7 @@
 Download de nodige bestanden:
 
 * [HTML Files](https://github.com/statikbe/frontend-test)
-* [Photoshop File](https://statik.box.com/shared/static/yfr0ev4a2pyzzg8l5nf6.psd)
+* [Photoshop File](https://drive.google.com/open?id=0B0_3gnfzEbNqaFlxeGRLT3E1VVE&authuser=0)
 
 ## Initialisatie
 

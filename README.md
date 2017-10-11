@@ -1,4 +1,4 @@
-# Front-end Test
+# Frontend Test
 
 ## Setup
 

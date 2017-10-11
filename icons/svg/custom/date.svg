@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_activiteiten_detail-copy" transform="translate(-956.000000, -572.000000)" fill-rule="nonzero" fill="#58585B">
+            <g id="Algemene-info" transform="translate(930.000000, 364.000000)">
+                <g id="Group-Copy" transform="translate(0.000000, 185.000000)">
+                    <g id="Icon/Date" transform="translate(23.000000, 21.000000)">
+                        <path d="M9.5,19.3 L14.5,19.3 L14.5,14.3 L9.5,14.3 L9.5,19.3 Z M15.5,13.3 L15.5,20.3 L8.5,20.3 L8.5,13.3 L15.5,13.3 Z M22.9,11.9 L7.1,11.9 L7.1,24.1 L22.9,24.1 L22.9,11.9 Z M6.1,25.1 L6.1,10.9 L23.9,10.9 L23.9,25.1 L6.1,25.1 Z M23.4,4.9 C25.0016258,4.9 26.3,6.19837423 26.3,7.8 L26.3,24.6 C26.3,26.2016258 25.0016258,27.5 23.4,27.5 L6.6,27.5 C4.99837423,27.5 3.7,26.2016258 3.7,24.6 L3.7,7.8 C3.7,6.20009126 4.99560819,4.9 6.6,4.9 L7.3,4.9 L7.3,2.5 L10.7,2.5 L10.7,4.9 L19.3,4.9 L19.3,2.5 L22.7,2.5 L22.7,4.9 L23.4,4.9 Z M8.3,5.9 L6.6,5.9 C5.54866767,5.9 4.7,6.75160424 4.7,7.8 L4.7,24.6 C4.7,25.649341 5.55065898,26.5 6.6,26.5 L23.4,26.5 C24.449341,26.5 25.3,25.649341 25.3,24.6 L25.3,7.8 C25.3,6.75065898 24.449341,5.9 23.4,5.9 L21.7,5.9 L21.7,3.5 L20.3,3.5 L20.3,5.9 L9.7,5.9 L9.7,3.5 L8.3,3.5 L8.3,5.9 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

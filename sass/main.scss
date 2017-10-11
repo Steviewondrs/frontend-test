@@ -1,11 +1,32 @@
-//! ==  Setupfiles ==
-// @import 'compass/css3', 'compass/utilities';
+// Core variables and mixins
+@import 'core/normalize';
 
-@import 'variables', 'helpers/functions', 'helpers/mixins', 'helpers/grid', 'helpers/extends';
+@import 'core/variables';
+@import 'core/mixins';
 
-@import 'common/normalize', 'common/base', 'common/general';
+@import 'core/scaffold';
+@import 'core/grid';
+@import 'core/type';
+@import 'core/buttons';
+@import 'core/lists';
+@import 'core/tables';
+@import 'core/links';
+@import 'core/fonts';
+@import 'core/forms';
+@import 'core/images';
 
-@import 'components/layout';
-@import 'components/all';
+// Components
+@import 'components/main';
+@import 'components/section';
+@import 'components/spacer';
+@import 'components/inline';
 
-@import 'common/print';
+@import 'components/block';
+@import 'components/card';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/nav';
+
+// Helpers
+@import 'core/helpers';

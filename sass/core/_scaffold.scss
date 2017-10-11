@@ -1,0 +1,70 @@
+
+
+// Reset box-sizing
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:last-child {
+    margin-bottom: 0;
+}
+
+// Html
+//
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+// Body
+//
+body {
+    @include fsRem($font-size-base);
+    background-color: $color-background;
+    color: $color-text;
+    font-family: $font-family-base;
+    font-weight: $font-weight-base;
+    line-height: lh($line-height-base);
+    min-width: 300px;
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+// Links
+a {
+    @include transitions((color, background, border));
+    @include link-variant($color-link, $color-link-hover, $color-link-visited);
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+// Paragraphs
+p {
+    margin: 0 0 $line-height-base;
+}
+
+hr {
+    margin-top: $line-height-base;
+    margin-bottom: $line-height-base;
+    border: 0;
+    border-top: 1px solid $gray-25;
+}
+
+// SVG
+svg {
+    fill: currentColor;
+}
+

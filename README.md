@@ -1,31 +1,49 @@
 # Front-end Test
 
-## Installatie
+## Setup
 
-Download de nodige bestanden:
-
-* [HTML Files](https://github.com/statikbe/frontend-test)
-* [Photoshop File](https://drive.google.com/open?id=0B0_3gnfzEbNqaFlxeGRLT3E1VVE&authuser=0)
-
-## Initialisatie
-
-1. Open terminal
-2. Ga naar de folder waar je de HTML bestand hebt uitgepakt
-3. Open de bestanden met sublime met volgende commando: `subl .`
-4. Hier na kan je sass vertellen dat je de folder /sass wilt watchen `sass --watch sass:css`
-  * Deze gaat automatisch css/main.css aanmaken
+1. Open Terminal.
+2. Clone/download deze repository: `git clone https://github.com/statikbe/frontend-test`
+3. In de `sass` map zitten al wat Sass-bestanden waarvan je mag vertrekken. Wij gebruiken meestal Grunt om hiervan een css-file te compileren. Installeer hiervoor NPM dependencies en start Grunt: `npm install && grunt`. Alles wordt nu automatisch gecompileerd telkens wanneer je een aanpassing maakt.
+4. Open daarna de taak in je editor (wij raden Sublime Text aan).
 
 ## De taak
 
-Als je dit allemaal hebt gedaan kan je de index.html file openen in je browser. Je taak is nu om de photoshop file zo goed mogelijk om te zetten naar html/css/js. Dit volledig responsive. Je kan hiervoor gebruiken wat je wil en krijgt een dag de tijd. Indien je sneller klaar bent mag je met wat css3 animaties en transitions de pagina opvrolijken.
+Als je dit allemaal gedaan hebt, kan je `index.html` openen in je browser.
+Wij zullen je een design geven, aan jou om dit nu zo goed mogelijk om te zetten naar een functionele webpagina.
 
-## Extra
+Onze aandachtspunten:
+- Scalable, herbruikbare css (lees zeker eens over BEM en OOCSS)
+- Logische, leesbare en semantische HTML
+- Responsive, mobile first
 
-* Wij werken bij statik zoveel mogelijk via met de [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) en [OOPCSS](http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/). Dit proberen we ook zoveel mogelijk te vertalen binnen de sass/components folder.
-* HTML5 en CSS3
-* Enkel support voor moderne browsers (geen IE debuggen)
-* Voor iconen gebruiken we een icon font (zie sass/components/_icons.scss)
-* De afbeeldingen die je mag gebruiken staan in de /img map. Deze zijn al geoptimaliseerd.
-* En ten laatste: Voor je begint bekijk zeker ook eens de sass/common en de sass/helper folder.
+Nice to have:
+- Toffe animaties (bv. op hover/focus)
+- ...
+- Verras ons!
 
-Veel success!
+Minder belangrijk:
+- Cross-browser compatibility (we gaan je taak écht niet op IE testen, beloofd)
+
+## Tips
+
+- Je begint best met `sass/core/_variables.scss` aan te passen naargelang het design.
+- Voorbeeldjes van hoe ons grid werkt:
+
+```
+<!-- Responsive (repeating) grid van 1/2/3 kolommen adhv. schermgrootte -->
+<div class="grid grid--bp-med-2-col grid--bp-lrg-3-col">
+    <div class="grid__item"></div>
+    ...
+    <div class="grid__item"></div>
+</div>
+
+<!-- Responsive (layout) grid met variabele breedtes adhv. schermgrootte -->
+<!-- (Dit voorbeeld zorgt voor een 66/33 layout op grote schermen) -->
+<div class="grid">
+    <div class="grid__12 grid--bp-med__8"></div>
+    <div class="grid__12 grid--bp-med__4"></div>
+</div>
+```
+
+Je bent niet verplicht ons grid te gebruiken, doe gerust je eigen ding!

@@ -1,5 +1,7 @@
 # Frontend Test
 
+[Sketchfile en assets](https://drive.google.com/open?id=0B_nR_3Un0WdjNlhtcUtNci1BUGs)
+
 ## Setup
 
 1. Open Terminal.
@@ -17,16 +19,15 @@ Onze aandachtspunten:
 - Logische, leesbare en semantische HTML
 - Responsive, mobile first
 
-Nice to have:
-- Toffe animaties (bv. op hover/focus)
-- ...
-- Verras ons!
+Mocht je sneller klaar zijn kan je de pagina wat opvrolijken met animaties en dergelijke.
 
 Minder belangrijk:
-- Cross-browser compatibility (we gaan je taak écht niet op IE testen, beloofd)
+- Cross-browser compatibility (we gaan je taak écht niet op IE testen, beloofd).
+- Image optimalisatie hoeft niet.
 
 ## Tips
 
+- Bekijk de map `components` en `core` eens.
 - Je begint best met `sass/core/_variables.scss` aan te passen naargelang het design.
 - Voorbeeldjes van hoe ons grid werkt:
 

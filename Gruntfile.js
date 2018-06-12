@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    'index.html': ['templates/**/*.pug']
+                    'index.html': ['templates/index.pug']
                 }
             }
         },

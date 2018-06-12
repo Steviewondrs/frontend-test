@@ -101,6 +101,19 @@ module.exports = function (grunt) {
             }
         },
 
+        pug: {
+            compile: {
+                options: {
+                    data: {
+                        debug: false
+                    }
+                },
+                files: {
+                    'index.html': ['templates/**/*.pug']
+                }
+            }
+        },
+
         watch: {
             options: {
                 livereload: false
@@ -115,6 +128,10 @@ module.exports = function (grunt) {
             fonts: {
                 files: ['fonts/**', 'icons/**'],
                 tasks: ['fonts', 'notify:fonts']
+            },
+            template: {
+                files: ['templates/**/*.pug'],
+                tasks: ['pug']
             }
         }
     });
@@ -122,6 +139,7 @@ module.exports = function (grunt) {
     //  PLUGINS
     require('load-grunt-tasks')(grunt);
     require('time-grunt')(grunt);
+
 
     //  COMBINED TASKS
     grunt.registerTask('default', ['build', 'watch']);

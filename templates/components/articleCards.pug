@@ -1,3 +1,28 @@
+mixin card(img, alt, title)
+    a.card(href="#")
+        img.card__img(src=img, alt=alt)
+        h3.card__block=title
+        p.card__block Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        .icon.icon--arrow-forward
 .container
-    .card
-        
+    .grid
+        .grid__12.grid--bp-xxs__12.grid--bp-lrg__4
+            .grid__item
+                +card("img/cards/card1.png", "card 1", "Events")
+        .grid__12.grid--bp-xxs__12.grid--bp-lrg__4
+            .grid__item
+                +card("img/cards/card2.png", "card 2", "Visiting grants")
+        .grid__12.grid--bp-xxs__12.grid--bp-lrg__4
+            .grid__item
+            +card("img/cards/card3.png", "card 3", "Virtual data access")
+        //- .grid__12.grid--bp-xxs__12.grid--bp-med__4
+        //-     .grid__item
+        //-     +card("img/cards/card4.png", "card 4", "Virtual data access")
+        //- .grid__12.grid--bp-xxs__12.grid--bp-med__4
+        //-     .grid__item
+        //-     +card("img/cards/card5.png", "card 5", "Virtual data access")
+        //- .grid__12.grid--bp-xxs__12.grid--bp-med__4
+        //-     .grid__item
+        //-     +card("img/cards/card6.png", "card 6", "Virtual data access")
+    
+

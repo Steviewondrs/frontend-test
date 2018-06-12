@@ -1,0 +1,13 @@
+mixin newsCard(text, date)
+    a.card.news-card(href="#")
+        span.news-card__title New output
+        h4=text
+        .date=date
+.container
+    h2 News
+    .grid
+        .grid__12.grid--bp-med__4
+            .grid__item
+                +newsCard("IPOLIS database and visualisations online", "27 FEB 2017")
+
+

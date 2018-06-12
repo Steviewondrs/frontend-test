@@ -4,14 +4,13 @@ html(lang="en")
         title Ingrid
         link(rel="stylesheet" href="css/main.min.css")
     body
-        header.page-header
-            
+        include components/header
         .page-main(role="main")
             .section
-                .container
-                    h1 Frontend Test
-                    p lorem ipsum
-                    p enz
+                include components/hero
+            .section
+                include components/articleCards
+                
         footer.page-footer
 
     script(src="https://code.jquery.com/jquery-3.2.1.min.js")
